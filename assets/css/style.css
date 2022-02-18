@@ -278,6 +278,12 @@ hr {
             float:left;
             padding: 0;
         }
+        #times{
+        width: 100%;
+        clear: both;
+        height: 150%;
+        padding: 0;
+        }
 
         hr {
             display: none;
@@ -286,7 +292,7 @@ hr {
         
     /* for medium screen sizes from 950px */
 
-    @media  screen and (max-width: 950px) {
+    @media screen and (max-width: 950px) {
     
         #menu {
             clear:left;
@@ -296,13 +302,12 @@ hr {
             line-height: 25px;
         }
         #cover-text{
-            left:0;
+            left: 0;
         }
         #club-ethos{
-            width:90px;
+            width: 90px;
             height: 1200px;
             margin: center;
-
         }
         .left-about-heading, .right-about-heading{
             width: inherit;
